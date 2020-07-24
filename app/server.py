@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1SbtK5UsvqsScW5zSq3V42RDSFzTk_lf5'
-export_file_name = 'export.pkl'
+export_file_name = 'sportBrain.pkl'
 
 classes = ['afl', 'gaelic', 'rugby', 'soccer']
 path = Path(__file__).parent
